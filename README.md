@@ -1,95 +1,83 @@
-# awesome-vacuum
-
-A curated list of free and open source software and hardware projects which can be used to build and control a robot vacuum.
-
---------------------
-
-- [awesome-vacuum](#awesome-vacuum)
-- [Hardware](#hardware)
-  - [IMU](#imu)
-  - [LIDAR](#lidar)
-  - [Projects](#projects)
-- [Software](#software)
-  - [Frameworks](#frameworks)
-  - [SLAM](#slam)
-- [Other Awesome Lists](#other-awesome-lists)
-- [Contributing](#contributing)
-
---------------------
-
-# Hardware
-
-**[`^        back to top        ^`](#)**
-
-## IMU
-
-**[`^        back to top        ^`](#)**
-
-A IMU helps to make localization much more stable by providing accelerometer, gyroscope and some even magnetometer data.
-[cartographer](https://github.com/cartographer-project/cartographer) can easily be setup with IMU to improve localization.
-
-- [MPU6050](https://playground.arduino.cc/Main/MPU-6050/) - IMU sensor combining a MEMS accelerometer and a MEMS gyro on a single chip.
-
-## LIDAR
-
-**[`^        back to top        ^`](#)**
-
-A LIDAR (Light Detection and Ranging) can create an accurate representation of its surroundings by utilizing a laser and a light sensor to measure TOF (Time of Flight). Devices are available as 2D and 3D variants, although the 3D variants are still pretty expensive and do not add much value to the "robot vacuum" use case.
-
-- [camsense-X1](https://github.com/Vidicon/camsense-X1) - Unofficial reverse engineering of a Chinese LiDAR. `GPL-3.0`
-- [RPLIDAR A Series](https://www.slamtec.com/en/Lidar/A1) - 360 Degree Laser Scanner with ROS integration and up to 16K samples per second.
-
-## Projects
-
-**[`^        back to top        ^`](#)**
-
-A list of full blown projects to create a robot vacuum.
-
-- [CleanBOT](https://www.instructables.com/CleanBOT/) - DIY bluetooth controlled robot vacuum built from wood and scrap electronics.
-- [DIY Vacuum Robot by CesNieto](https://www.instructables.com/Build-Your-Own-Vacuum-Robot/) - DIY robot vacuum built using 3D printing and an Arduino Uno.
-- [Robot Vacuum Cleaner MK2](https://www.myminifactory.com/object/3d-print-101108) - DIY robot vacuum built using 3D printing and an Arduino Nano. `BY-NC-SA`
-
-# Software
-
-**[`^        back to top        ^`](#)**
-
-- [Bumper](https://github.com/bmartin5692/bumper) - A standalone and self-hosted implementation of the central server used by Ecovacs vacuum robot. `GPL-3.0` `Python`
-- [Dustcloud](https://github.com/dgiese/dustcloud) - Xiaomi Smart Home Device Reverse Engineering and Hacking. `GPL-3.0` `Various`
-- [Roborock Oucher](https://github.com/porech/roborock-oucher) - An utility to make the Roborock / Xiaomi MI Vacuum Cleaner scream "Ouch!" (or everything else) everytime it bumps into something `MIT` `golang`
-- [Valetudo](https://github.com/Hypfer/Valetudo) - Cloud-free control webinterface for vacuum robots. `Apache-2.0` `JavaScript`
-- [I can't belive it's not Valetudo](https://github.com/Hypfer/ICantBelieveItsNotValetudo) - Valetudo companion service (Map Rendering) `Apache-2.0` `JavaScript`
-- [Valetudo RE](https://github.com/rand256/valetudo) - Experimental vacuum software, cloud free (Valetudo Fork) `Apache-2.0` `JavaScript`
-- [valetudo mapper](https://github.com/rand256/valetudo-mapper) - Valetudo companion service (Map Rendering, ICantBelieveItsNotValetudo Fork) `Apache-2.0` `JavaScript`
-- [FreeCong.ga](https://freecon.ga) - Valetudo implementation for Cecotec Conga Vacuums. [Freeconga Organization](https://github.com/freeconga) in Github. `Apache-2.0`, `GPL-3.0`
-- [Congatudo](https://github.com/freeconga/congatudo-add-on) Freecon.ga project to have Valetudo in the Home Assistant as addon intead of use standalone installation into the vacuum. `GPL-3.0` `Shell`
-- [OpenDoñita](https://gitlab.com/rastersoft/opendonita) - Add local support for previous Congas 1490. `GPL-3.0` `Python`
-
-## Frameworks
-
-**[`^        back to top        ^`](#)**
-
-- [Gobot](https://github.com/hybridgroup/gobot/) - Golang framework for robotics, drones, and the Internet of Things (IoT).  `Apache-2.0` `golang`
-- [ROS (Robot Operating System)](https://wiki.ros.org/) - Provides libraries and tools to help software developers create robot applications. It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more. `BSD` `Various`
-
-## SLAM
-
-**[`^        back to top        ^`](#)**
-
-SLAM (Simultaneous Localization and Mapping) is used to build a map by repeatedly scanning surrounding area and through that enable the robot to localize itself within that environment.
-
-- [BreezySLAM](https://github.com/simondlevy/BreezySLAM) - Simple, efficient, open-source package for Simultaneous Localization and Mapping. `LGPLv3` `Various`
-- [cartographer](https://github.com/cartographer-project/cartographer) - A system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations. `Apache-2.0` `C++`
-- [OpenVSLAM](https://github.com/xdspacelab/openvslam) - A Versatile Visual SLAM Framework. `2-Clause BSD` `C++`
-- [ROS SLAM](https://github.com/ros-perception/slam_gmapping) - A ROS wrapper for OpenSlam's Gmapping. `BSD` `C++`
-
---------------------
-
-
-# Other Awesome Lists
-
-* [Awesome Robotic Tooling](https://github.com/protontypes/awesome-robotic-tooling)
-
-
-# Contributing
-
-You know a software or hardware project that is not on this list yet? Contributions are very much welcome! Have a look at the [Contribution Guidelines](.github/CONTRIBUTING.md) to learn how you can add projects to this list.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">真棒真空</font></font></h1><a id="user-content-awesome-vacuum" class="anchor-element" aria-label="永久链接：真棒真空" href="#awesome-vacuum"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可用于构建和控制机器人真空吸尘器的免费开源软件和硬件项目的精选列表。</font></font></p>
+<hr>
+<ul dir="auto">
+<li><a href="#awesome-vacuum"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">真棒真空</font></font></a></li>
+<li><a href="#hardware"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">硬件</font></font></a>
+<ul dir="auto">
+<li><a href="#imu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鼻子</font></font></a></li>
+<li><a href="#lidar"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">激光雷达</font></font></a></li>
+<li><a href="#projects"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目</font></font></a></li>
+</ul>
+</li>
+<li><a href="#software"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></a>
+<ul dir="auto">
+<li><a href="#frameworks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构架</font></font></a></li>
+<li><a href="#slam"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SLAM</font></font></a></li>
+</ul>
+</li>
+<li><a href="#other-awesome-lists"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他很棒的清单</font></font></a></li>
+<li><a href="#contributing"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></a></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">硬件</font></font></h1><a id="user-content-hardware" class="anchor-element" aria-label="永久链接：硬件" href="#hardware"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><a href="#"><code>^        back to top        ^</code></a></strong></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鼻子</font></font></h2><a id="user-content-imu" class="anchor-element" aria-label="永久链接：IMU" href="#imu"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><a href="#"><code>^        back to top        ^</code></a></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IMU 通过提供加速度计、陀螺仪甚至磁力计数据，有助于使定位更加稳定。
+</font></font><a href="https://github.com/cartographer-project/cartographer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制图师</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以轻松地使用 IMU 设置以改进定位。</font></font></p>
+<ul dir="auto">
+<li><a href="https://playground.arduino.cc/Main/MPU-6050/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MPU6050</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - IMU 传感器在单个芯片上结合了 MEMS 加速度计和 MEMS 陀螺仪。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">激光雷达</font></font></h2><a id="user-content-lidar" class="anchor-element" aria-label="永久链接：激光雷达" href="#lidar"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><a href="#"><code>^        back to top        ^</code></a></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LIDAR（光探测和测距）可以利用激光和光传感器测量 TOF（飞行时间）来准确表示周围环境。</font><font style="vertical-align: inherit;">设备有 2D 和 3D 版本可供选择，尽管 3D 版本仍然相当昂贵，并且不会为“机器人真空吸尘器”用例增加太多价值。</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/Vidicon/camsense-X1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">camsense-X1</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 中国 LiDAR 的非官方逆向工程。</font></font><code>GPL-3.0</code></li>
+<li><a href="https://www.slamtec.com/en/Lidar/A1" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RPLIDAR A 系列</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 360 度激光扫描仪，具有 ROS 集成和每秒高达 16K 的样本。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目</font></font></h2><a id="user-content-projects" class="anchor-element" aria-label="永久链接：项目" href="#projects"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><a href="#"><code>^        back to top        ^</code></a></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建机器人真空吸尘器的完整项目列表。</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.instructables.com/CleanBOT/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CleanBOT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用木材和废旧电子产品制成的 DIY 蓝牙控制机器人真空吸尘器。</font></font></li>
+<li><a href="https://www.instructables.com/Build-Your-Own-Vacuum-Robot/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CesNieto 的 DIY 真空机器人</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 使用 3D 打印和 Arduino Uno 构建的 DIY 真空机器人。</font></font></li>
+<li><a href="https://www.myminifactory.com/object/3d-print-101108" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器人真空吸尘器 MK2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 使用 3D 打印和 Arduino Nano 构建的 DIY 真空机器人。</font></font><code>BY-NC-SA</code></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></h1><a id="user-content-software" class="anchor-element" aria-label="永久链接：软件" href="#software"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><a href="#"><code>^        back to top        ^</code></a></strong></p>
+<ul dir="auto">
+<li><a href="https://github.com/bmartin5692/bumper"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bumper</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 科沃斯真空机器人使用的中央服务器的独立且自托管的实现。</font></font><code>GPL-3.0</code> <code>Python</code></li>
+<li><a href="https://github.com/dgiese/dustcloud"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dustcloud</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 小米智能家居设备逆向工程和黑客。</font></font><code>GPL-3.0</code> <code>Various</code></li>
+<li><a href="https://github.com/porech/roborock-oucher"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Roborock Oucher</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 一款让 Roborock / 小米吸尘器尖叫“哎哟！”的实用程序 </font><font style="vertical-align: inherit;">（或其他一切）每次碰到东西时</font></font><code>MIT</code> <code>golang</code></li>
+<li><a href="https://github.com/Hypfer/Valetudo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Health</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于真空机器人的无云控制网络界面。</font></font><code>Apache-2.0</code> <code>JavaScript</code></li>
+<li><a href="https://github.com/Hypfer/ICantBelieveItsNotValetudo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我不敢相信这不是Health</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 健康陪伴服务（地图渲染）</font></font><code>Apache-2.0</code> <code>JavaScript</code></li>
+<li><a href="https://github.com/rand256/valetudo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Health RE</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 实验性真空软件，免费云 (Health Fork)</font></font><code>Apache-2.0</code> <code>JavaScript</code></li>
+<li><a href="https://github.com/rand256/valetudo-mapper"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">health mapper</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 健康伴侣服务（地图渲染、ICantBelieveItsNotHealth Fork）</font></font><code>Apache-2.0</code> <code>JavaScript</code></li>
+<li><a href="https://freecon.ga" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FreeCong.ga</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Cecotec Conga Vacuums 的 Valetudo 实施. </font></font><a href="https://github.com/freeconga"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Freeconga 组织</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位于 Github。</font></font><code>Apache-2.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><code>GPL-3.0</code></li>
+<li><a href="https://github.com/freeconga/congatudo-add-on"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Congatudo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Freecon.ga 项目将 Valetudo 作为插件添加到 Home Assistant 中，而不是在真空中使用独立安装。</font></font><code>GPL-3.0</code> <code>Shell</code></li>
+<li><a href="https://gitlab.com/rastersoft/opendonita" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenDoñita</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 添加对以前的 Congas 1490 的本地支持。</font></font><code>GPL-3.0</code> <code>Python</code></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构架</font></font></h2><a id="user-content-frameworks" class="anchor-element" aria-label="永久链接：框架" href="#frameworks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><a href="#"><code>^        back to top        ^</code></a></strong></p>
+<ul dir="auto">
+<li><a href="https://github.com/hybridgroup/gobot/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gobot</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于机器人、无人机和物联网 (IoT) 的 Golang 框架。  </font></font><code>Apache-2.0</code> <code>golang</code></li>
+<li><a href="https://wiki.ros.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ROS（机器人操作系统）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 提供库和工具来帮助软件开发人员创建机器人应用程序。</font><font style="vertical-align: inherit;">它提供硬件抽象、设备驱动程序、库、可视化工具、消息传递、包管理等。</font></font><code>BSD</code> <code>Various</code></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SLAM</font></font></h2><a id="user-content-slam" class="anchor-element" aria-label="永久链接：SLAM" href="#slam"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><a href="#"><code>^        back to top        ^</code></a></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SLAM（同步定位和建图）用于通过重复扫描周围区域来构建地图，从而使机器人能够在该环境中进行自身定位。</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/simondlevy/BreezySLAM"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BreezySLAM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 简单、高效、开源的同步本地化和地图包。</font></font><code>LGPLv3</code> <code>Various</code></li>
+<li><a href="https://github.com/cartographer-project/cartographer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制图师</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 跨多个平台和传感器配置提供 2D 和 3D 实时同步定位和地图绘制 (SLAM) 的系统。</font></font><code>Apache-2.0</code> <code>C++</code></li>
+<li><a href="https://github.com/xdspacelab/openvslam"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenVSLAM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 多功能视觉 SLAM 框架。</font></font><code>2-Clause BSD</code> <code>C++</code></li>
+<li><a href="https://github.com/ros-perception/slam_gmapping"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ROS SLAM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - OpenSlam Gmapping 的 ROS 包装器。</font></font><code>BSD</code> <code>C++</code></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他很棒的清单</font></font></h1><a id="user-content-other-awesome-lists" class="anchor-element" aria-label="永久链接：其他很棒的列表" href="#other-awesome-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/protontypes/awesome-robotic-tooling"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很棒的机器人工具</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h1><a id="user-content-contributing" class="anchor-element" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您知道一个尚未在此列表中的软件或硬件项目吗？</font><font style="vertical-align: inherit;">非常欢迎您的贡献！</font><font style="vertical-align: inherit;">查看</font></font><a href="/awesome-vacuum/awesome-vacuum/blob/main/.github/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解如何将项目添加到此列表。</font></font></p>
+</article></div>
